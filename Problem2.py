@@ -1,5 +1,4 @@
-prev, current = 0, 1
-sum = 0
+prev, current, sum = 0, 1, 0
 while True:
     prev, current = current, prev + current
     if current >= 4000000:
